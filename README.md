@@ -22,7 +22,7 @@ pod 'iOSViews'
 
 ## Author
 
-lworx-stanley, stanley@loyaltyworx.com
+slimq313, adigwestanley@gmail.com
 
 ## License
 
