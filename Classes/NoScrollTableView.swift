@@ -8,16 +8,16 @@
 import Foundation
 import UIKit
 
-class NoScrollTableView: UITableView {
-    override var contentSize: CGSize {
+public class NoScrollTableView: UITableView {
+    override public var contentSize: CGSize {
         didSet {
             self.invalidateIntrinsicContentSize()
         }
     }
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         self.layoutIfNeeded()
         return CGSize(width: UIView.noIntrinsicMetric, height: contentSize.height)
     }
 }
- 
+
